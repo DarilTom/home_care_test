@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Card Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+            overflow: hidden;
+        }
+        .card img {
+            width: 100%;
+            border-bottom: 1px solid #ddd;
+        }
+        .card-content {
+            padding: 20px;
+        }
+        .card-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .card-description {
+            font-size: 16px;
+            color: #666;
+        }
+        .card-button {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #5a67d8;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .card-button:hover {
+            background-color: #434190;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Card Image">
+        <div class="card-content">
+            <h2 class="card-title">Card Title</h2>
+            <p class="card-description">This is a simple and cool card layout example.</p>
+            <a href="#" class="card-button">Read More</a>
+        </div>
+    </div>
+</body>
+</html>
